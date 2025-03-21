@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Banner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Banner Section -->
+
+    <div id="banner">
+        <h1 id="banner-text">I love Frontend Development!</h1>
+        <img id="banner-image" src="https://placehold.co/600x200" alt="Banner Image">
+    </div>
+
+    <!-- Form Section -->
+    <div class="form-container">
+        <label>Change Banner Background:</label>
+        <select id="bg-color">
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green </option>
+        </select>
+
+        <label>Change Banner Text:</label>
+        <input type="text" id="text-input" placeholder="Enter new text">
+
+        <label>Change Banner Image:</label>
+        <input type="text" id="image-input" placeholder="Enter image URL">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
